@@ -1,0 +1,175 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  
+  
+header{
+    display: grid;
+    text-align: center;
+    background-color:black ;
+    
+}
+
+header h1{
+  font-family: 'Anton', sans-serif;
+ font-size: 45px;
+ color: rosybrown ;
+ }
+
+ header h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: aliceblue;
+ }
+
+ .titulo {
+  display: grid;
+  margin: 30px;
+  text-align: center ;
+  color: black;
+ }
+
+/*  --------------DIV DE IMAGENES------------*/
+.cumples {
+    
+    display: inline-block;
+    box-sizing: border-box;
+    column-count: 5;
+    column-width: 250px;
+    column-gap: 20px;
+    margin: 10px;
+    padding: 10px;
+   
+    border-radius: 0px;
+  }
+
+
+.imgcumples img{
+   
+   width: 200px;
+   align-items: center;
+   flex: 20%;
+ }
+
+
+.linea {
+
+  background-color: rosybrown;
+  padding: 10px;
+}
+
+
+.logos {
+    
+  display: inline-block;
+  box-sizing: border-box;
+  column-count: 4;
+  column-width: 250px;
+  column-gap: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:0px;
+}
+
+
+.imglogos img{
+ 
+ width: 300px;
+ align-items: center;
+ flex: 25%;
+}
+
+
+
+.egresados {
+    
+  display:inline-flex;
+
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.imgegresados img{
+ 
+ width: 200px;
+ align-items: center;
+ 
+}
+
+
+.locas {
+    
+  display: inline-block;
+  box-sizing: border-box;
+  column-count:3;
+  column-width: 250px;
+  column-gap: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:0px;
+}
+
+
+.imglocas img{
+ 
+ width: 300px;
+ align-items: center;
+ flex: 33.33%;
+}
+
+
+.comunion {
+    
+  display: inline-block;
+  box-sizing: border-box;
+  column-count: 2;
+  column-width: 250px;
+  column-gap: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:0px;
+}
+
+
+.imgcomunion img{
+ 
+ width: 300px;
+ align-items: center;
+ flex: 50%;
+}
+
+
+.otros {
+    
+  display: inline-block;
+  box-sizing: border-box;
+  column-count: 2;
+  column-width: 250px;
+  column-gap: 20px;
+  margin: 30px;
+  padding: 30px;
+  border-radius:0px;
+}
+
+
+.imgotros img{
+ 
+ height: 300px;
+ align-items: center;
+ flex: 50%;
+}
+
+footer{
+  display: grid;
+  text-align: center;
+  background-color:black ;
+  color:aliceblue;
+  font-size: 15px;
+  padding: 5px;
+  font-family:'Trebuchet MS';
+}
